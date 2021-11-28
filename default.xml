@@ -1,9 +1,19 @@
 <manifest>
     <remote name="maGitHub" fetch="https://github.com"/>
-    <remote name="openEmbedded" fetch="git://git.openembedded.org"/>
+    <remote name="yocto-project" fetch="git://git.yoctoproject.org">
+    <remote name="meta-openembedded" fetch="git://git.openembedded.org"/>
     <default revision="refs/heads/master" remote="maGitHub" sync-j="4"/>
-    <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="pupa"/>
+    <default revision="dunfell" remote="yocto-project" sync-j="4"/>
+    <default revision="dunfell" remote="open-embedded" sync-j="4"/>
 
-    <project name="meta-raspberrypi" remote="openEmbedded" revision="987993209716302eb8f314f69a2a3340555f94d8" path="tata"/>
-    <project name="meta-openembedded" remote="openEmbedded" revision="f2d02cb71eaff8eb285a1997b30be52486c160ae" path="mama"/>
+    <project name="poky.git" remote="yocto-project" path="poky"/>
+    <project name="meta-raspberrypi" remote="yocto-project" path="poky/meta-raspberrypi"/>
+    <project name="meta-openembedded" remote="yocto-project" path="poky/meta-openembedded"/>
+
+
+
+    <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="poky/meta-wojtech"/>
+
+
+
 </manifest>
