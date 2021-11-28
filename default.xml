@@ -1,14 +1,14 @@
 <manifest>
     <remote name="maGitHub" fetch="https://github.com"/>
     <remote name="yocto-project" fetch="git://git.yoctoproject.org"/>
-    <remote name="meta-openembedded" fetch="git://git.openembedded.org"/>
+    <remote name="open-embedded" fetch="git://git.openembedded.org"/>
     <default revision="refs/heads/master" remote="maGitHub" sync-j="4"/>
     <default revision="dunfell" remote="yocto-project" sync-j="4"/>
     <default revision="dunfell" remote="open-embedded" sync-j="4"/>
 
     <project name="poky.git" remote="yocto-project" path="poky"/>
     <project name="meta-raspberrypi" remote="yocto-project" path="poky/meta-raspberrypi"/>
-    <project name="meta-openembedded" remote="yocto-project" path="poky/meta-openembedded"/>
+    <project name="meta-openembedded" remote="open-embedded" path="poky/meta-openembedded"/>
 
 
 
