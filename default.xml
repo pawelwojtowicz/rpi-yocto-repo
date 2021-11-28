@@ -1,0 +1,5 @@
+<manifest>
+    <remote name="maGitHub" fetch="https://github.com"/>
+    <default revision="revs/heads/master" remote="maGitHub" sync-j="4"/>
+    <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="pupa"/>
+</manifest>
