@@ -1,6 +1,6 @@
 <manifest>
     <remote name="maGitHub" fetch="https://github.com"/>
-    <remote name="yocto-project" fetch="git://git.yoctoproject.org">
+    <remote name="yocto-project" fetch="git://git.yoctoproject.org"/>
     <remote name="meta-openembedded" fetch="git://git.openembedded.org"/>
     <default revision="refs/heads/master" remote="maGitHub" sync-j="4"/>
     <default revision="dunfell" remote="yocto-project" sync-j="4"/>
