@@ -11,5 +11,5 @@
 
   <!-- private -->
   <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="poky/meta-wojtech"/>
-  <project name="pawelwojtowicz/rpi-ha-config.git" remote="maGitHub" path="home-automation-yocto"/>
+  <project name="pawelwojtowicz/rpi-ha-config.git" remote="maGitHub" path="poky/home-automation-yocto"/>
 </manifest>
