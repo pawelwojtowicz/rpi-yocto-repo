@@ -1,19 +1,15 @@
 <manifest>
-    <remote name="maGitHub" fetch="https://github.com"/>
-    <remote name="yocto-project" fetch="git://git.yoctoproject.org"/>
-    <remote name="open-embedded" fetch="git://git.openembedded.org"/>
-    <default revision="refs/heads/master" remote="maGitHub" sync-j="4"/>
-    <default revision="dunfell" remote="yocto-project" sync-j="4"/>
-    <default revision="dunfell" remote="open-embedded" sync-j="4"/>
+  <remote name="maGitHub" fetch="https://github.com"/>
+  <remote name="yocto-project" fetch="git://git.yoctoproject.org"/>
+  <remote name="open-embedded" fetch="git://git.openembedded.org"/>
+  <default revision="refs/heads/master" remote="maGitHub" sync-j="4"/>
 
-    <project name="poky.git" remote="yocto-project" path="poky"/>
-    <project name="meta-raspberrypi" remote="yocto-project" path="poky/meta-raspberrypi"/>
-    <project name="meta-openembedded" remote="open-embedded" path="poky/meta-openembedded"/>
+  <!-- community -->
+  <project name="poky.git" revision="0839888394a6e42e96f9f0d201376eb38bc79b24" remote="yocto-project" path="poky"/>
+  <project name="meta-raspberrypi" revision="934064a01903b2ba9a82be93b3f0efdb4543a0e8" remote="yocto-project" path="poky/meta-raspberrypi"/>
+  <project name="meta-openembedded" revision="7889158dcd187546fc5e99fd81d0779cad3e8d17" remote="open-embedded" path="poky/meta-openembedded"/>
 
-
-
-    <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="poky/meta-wojtech"/>
-
-
-
+  <!-- private -->
+  <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="poky/meta-wojtech"/>
+  <project name="pawelwojtowicz/rpi-ha-config.git" remote="maGitHub" path="home-automation-yocto"/>
 </manifest>
