@@ -4,10 +4,10 @@
   <remote name="open-embedded" fetch="git://git.openembedded.org"/>
   <default revision="refs/heads/master" remote="maGitHub" sync-j="4"/>
 
-  <!-- community -->
-  <project name="poky.git" revision="0839888394a6e42e96f9f0d201376eb38bc79b24" remote="yocto-project" path="poky"/>
-  <project name="meta-raspberrypi" revision="934064a01903b2ba9a82be93b3f0efdb4543a0e8" remote="yocto-project" path="poky/meta-raspberrypi"/>
-  <project name="meta-openembedded" revision="7889158dcd187546fc5e99fd81d0779cad3e8d17" remote="open-embedded" path="poky/meta-openembedded"/>
+  <!-- community - working with "kirkstone" release -->
+  <project name="poky.git" revision="d64bef1c7d713b92a51228e5ade945835e5a94a4" remote="yocto-project" path="poky"/>
+  <project name="meta-raspberrypi" revision="dacad9302a92b0b7edf8546cdcad1f8ef753e462" remote="yocto-project" path="poky/meta-raspberrypi"/>
+  <project name="meta-openembedded" revision="05dcac98473402d87e0af73bbc2c5a6a840abe93" remote="open-embedded" path="poky/meta-openembedded"/>
 
   <!-- private -->
   <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="poky/meta-wojtech"/>
