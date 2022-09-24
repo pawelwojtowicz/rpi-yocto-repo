@@ -5,11 +5,11 @@
   <default revision="refs/heads/master" remote="maGitHub" sync-j="4"/>
 
   <!-- community - working with "kirkstone" release -->
-  <project name="poky.git" revision="d64bef1c7d713b92a51228e5ade945835e5a94a4" remote="yocto-project" path="poky"/>
-  <project name="meta-raspberrypi" revision="dacad9302a92b0b7edf8546cdcad1f8ef753e462" remote="yocto-project" path="poky/meta-raspberrypi"/>
-  <project name="meta-openembedded" revision="05dcac98473402d87e0af73bbc2c5a6a840abe93" remote="open-embedded" path="poky/meta-openembedded"/>
+  <project name="poky.git" revision="fd00d74f47ceb57a619c4d0a0553ff0a30bbb7a4" remote="yocto-project" path="poky"/>
+  <project name="meta-raspberrypi" revision="378d4b6e7ba64b6a9a701457cc3780fa896ba5dc" remote="yocto-project" path="poky/meta-raspberrypi"/>
+  <project name="meta-openembedded" revision="0e6c34f82ca4d43cbca3754c5fe37c5b3bdd0f37" remote="open-embedded" path="poky/meta-openembedded"/>
 
   <!-- private -->
   <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="poky/meta-wojtech"/>
-  <project name="pawelwojtowicz/rpi-ha-config.git" remote="maGitHub" path="poky/home-automation-yocto"/>
+  <project name="pawelwojtowicz/rpi-ha-config.git" remote="maGitHub" path="home-automation-yocto"/>
 </manifest>
