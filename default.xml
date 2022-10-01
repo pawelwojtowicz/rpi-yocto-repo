@@ -10,6 +10,6 @@
   <project name="meta-openembedded" revision="0e6c34f82ca4d43cbca3754c5fe37c5b3bdd0f37" remote="open-embedded" path="poky/meta-openembedded"/>
 
   <!-- private -->
-  <project name="pawelwojtowicz/meta-wojtech.git" remote="maGitHub" path="poky/meta-wojtech"/>
-  <project name="pawelwojtowicz/rpi-ha-config.git" remote="maGitHub" path="home-automation-yocto"/>
+  <project name="pawelwojtowicz/meta-wojtech.git" revision="ec58309fd5ce7316ace43f0d0e381a20c6981ef1" remote="maGitHub" path="poky/meta-wojtech"/>
+  <project name="pawelwojtowicz/rpi-ha-config.git" revision="61ac671f78cff8326d522c3f0c687c9a92977e1d" remote="maGitHub" path="home-automation-yocto"/>
 </manifest>
